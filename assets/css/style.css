@@ -1,0 +1,374 @@
+/* =======================================================================
+Template Name: B-Space Single Page Template
+Author:  SmartEye Technologies
+Author URI: www.smart-eye.in
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for web template
+
+======================================================================= */
+/* ===================================== Import Less ================================== */
+@font-face {
+  font-family: robot-slab;
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+.blog-box1 .cdfik li {
+  float: left;
+  padding: 11.5px;
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+}
+.blog-box1 .sd-op {
+  background-color: #f58220;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.blog-box1 .cdfik {
+  width: 100%;
+}
+.blog-box1 .pof-det {
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 60px;
+}
+.blog-box1 .pof-det b {
+  font-size: 13px;
+}
+.blog-box1 .pof-det p {
+  font-size: 13px;
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 5px;
+}
+.blog-box1 .sd-op b {
+  font-size: 22px;
+}
+/* ===================================== Basic CSS ================================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+.cp {
+  cursor: pointer;
+}
+p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.layy {
+  padding: 30px;
+}
+h2 {
+  width: 100%;
+}
+.no-padding {
+  padding: 0px;
+}
+.no-margin {
+  margin: 0px;
+}
+.sec-title {
+  text-align: center;
+}
+.sec-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: none;
+  font-family: robot-slab;
+}
+.sec-title p {
+  font-size: 14px;
+}
+body {
+  background: #f4f4f4;
+  font-family: robot-slab;
+  font-size: 0.85rem;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1250px;
+}
+.social {
+  position: fixed;
+  left: 0px;
+  top: 37%;
+  width: 60px;
+  height: 120px;
+  background-color: #EAEAEA;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+.social ul li {
+  list-style: none;
+  float: none;
+  font-size: 32px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+.social ul {
+  padding-left: 0px;
+}
+/* ===================================== Resum Home Style  ================================== */
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 335px) {
+  .container-fluid {
+    padding: 0px 10px;
+  }
+}
+.resume-container {
+  background-color: #7f298c;
+  min-height: 100%;
+  padding-top: 3.3%;
+  overflow: auto;
+}
+.resume-container .resume-box {
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  float: none;
+  margin: auto;
+  margin-bottom: 3%;
+}
+.resume-container .resume-box .basic-profile {
+  padding: 10px;
+  border-right: 1px solid #D2D2D2;
+}
+.resume-container .resume-box .basic-profile .baci-cc {
+  background-color: #7f298c;
+}
+@media screen and (max-width: 991px) {
+  .resume-container .resume-box .basic-profile .baci-cc {
+    padding-top: 10%;
+  }
+}
+.resume-container .resume-box .basic-profile .basic-detail {
+  padding: 10px;
+  text-align: center;
+  background-color: #7f298c;
+  color: #FFF;
+  padding-bottom: 15px;
+}
+.resume-container .resume-box .basic-profile .basic-detail h2 {
+  margin-bottom: 3px;
+}
+.resume-container .resume-box .basic-profile .basic-detail p {
+  margin-bottom: 5px;
+}
+.resume-container .resume-box .basic-profile .basic-detail span {
+  color: #FFF;
+}
+.resume-container .resume-box .detail-profile .nav-item a {
+  color: #888;
+  font-size: 16px;
+  padding: .7rem 1.7rem;
+  border-radius: 0px;
+}
+@media screen and (max-width: 595px) {
+  .resume-container .resume-box .detail-profile .nav-item a {
+    padding: .7rem 1.5rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .resume-container .resume-box .detail-profile .nav-item a {
+    padding: .7rem 1rem;
+  }
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .nav-item a {
+    padding: .7rem .5rem;
+    font-size: 12px;
+  }
+}
+.resume-container .resume-box .detail-profile .nav-item .active {
+  color: #7f298c !important;
+}
+.resume-container .resume-box .detail-profile .tab-pane {
+  padding: 20px;
+  height: 530px;
+  overflow: auto;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .tab-pane {
+    padding: 5px;
+  }
+}
+.resume-container .resume-box .detail-profile .detal-jumbo {
+  padding: 20px;
+  background-color: #EEEEEE;
+  border-left: 4px solid #7f298c;
+  border-radius: 4px;
+}
+.resume-container .resume-box .detail-profile .detal-jumbo h3 {
+  font-size: 24px;
+}
+.resume-container .resume-box .detail-profile .detal-jumbo p {
+  text-indent: 20px;
+}
+.resume-container .resume-box .detail-profile .links {
+  padding: 50px 0px;
+}
+.resume-container .resume-box .detail-profile .links .btn-link li {
+  float: left;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #888;
+  margin-right: 10px;
+  color: #888;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .links .btn-link li {
+    margin-right: 5px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.resume-container .resume-box .detail-profile .links .btn-link li i {
+  margin-top: 5px;
+}
+.resume-container .resume-box .detail-profile .links .btn-link li a {
+  color: #888;
+}
+.resume-container .resume-box .detail-profile .links .social-link {
+  float: right;
+}
+.resume-container .resume-box .detail-profile .links .social-link li {
+  float: left;
+  padding: 5px;
+  border: 1px solid #888;
+  border-radius: 50px;
+  width: 35px;
+  text-align: center;
+  margin-right: 10px;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .links .social-link li {
+    margin-right: 5px !important;
+    margin-top: 20px;
+  }
+}
+.resume-container .resume-box .detail-profile .jumbo-address {
+  padding: 20px 40px;
+  background-color: #EEEEEE;
+  border-left: 4px solid #7f298c;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .jumbo-address {
+    padding: 20px 10px;
+  }
+}
+.resume-container .resume-box .detail-profile .jumbo-address .addrss-list tr th,
+.resume-container .resume-box .detail-profile .jumbo-address td {
+  padding: 10px;
+}
+.resume-container .resume-box .detail-profile .profile-desic {
+  padding: 20px;
+}
+.resume-container .resume-box .detail-profile .profile-desic p {
+  text-align: center;
+}
+.resume-container .resume-box .detail-profile .service {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.resume-container .resume-box .detail-profile .service .rit-serv h4 {
+  text-align: right;
+}
+.resume-container .resume-box .detail-profile .service .serv-logo {
+  text-align: center;
+  border-right: 2px solid #CCC;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .service .serv-logo {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+}
+.resume-container .resume-box .detail-profile .service .serv-logo i {
+  font-size: 42px;
+  margin-top: 22px;
+  color: #7f298c;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .service .serv-logo i {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+}
+.resume-container .resume-box .detail-profile .service .serv-logo-right {
+  border-left: 2px solid #CCC;
+  text-align: center;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .service .serv-logo-right {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+}
+.resume-container .resume-box .detail-profile .service .serv-logo-right i {
+  font-size: 42px;
+  margin-top: 22px;
+  color: #7f298c;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .service .serv-logo-right i {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+}
+.resume-container .resume-box .detail-profile .rit-serv h5 {
+  text-align: right;
+}
+.resume-container .resume-box .detail-profile .rit-serv p {
+  text-align: right;
+}
+.resume-container .resume-box .detail-profile .resume-dat {
+  padding-top: 13px;
+}
+@media screen and (max-width: 483px) {
+  .resume-container .resume-box .detail-profile .resume-dat {
+    margin-bottom: 30px;
+  }
+}
+.resume-container .resume-box .gallery img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.resume-container .resume-box .map iframe {
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  background-color: #FFF;
+  padding: 5px;
+  margin-bottom: 30px;
+}

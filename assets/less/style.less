@@ -1,0 +1,290 @@
+/* =======================================================================
+Template Name: B-Space Single Page Template
+Author:  SmartEye Technologies
+Author URI: www.smart-eye.in
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for web template
+
+======================================================================= */
+
+
+/* ===================================== Import Less ================================== */
+
+@import "values.less";
+@import "functions.less";
+
+
+/* ===================================== Basic CSS ================================== */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+}
+img{max-width: 100%;}
+a {
+    text-decoration: none;
+    outline: none;
+}
+ul{margin-bottom: 0; padding-left: 0;}
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+.cp{cursor: pointer}
+p{margin-bottom: 0px; width: 100%;}
+.layy{padding: 30px;}
+h2{width: 100%;}
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+.sec-title{
+    text-align: center;
+    
+    h2{font-size: 2rem; font-weight: 600; text-transform: none;
+    font-family:robot-slab }
+    p{font-size: 14px;}
+}
+body{
+    background:@background-color;
+    font-family:robot-slab;
+    font-size:@main-font-size;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1250px;
+}
+.social{position: fixed;left: 0px; top: 37%; width: 60px; height: 120px; background-color:#EAEAEA;.card-1(); }
+.social ul li{list-style: none; float: none; font-size: 32px; padding: 15px; width: 100%; text-align: center; 
+    color: #FFF}
+.social ul{padding-left: 0px;}
+
+/* ===================================== Resum Home Style  ================================== */
+html,body{
+    height: 100%;
+    overflow: auto;
+}
+@media screen and (max-width: 335px){
+    .container-fluid{
+        padding: 0px 10px;
+    }
+}
+.resume-container{
+    background-color: @color-primary;
+    min-height: 100%;
+    padding-top: 3.3%;
+    @media screen and (max-width: 1250px){
+        
+    }
+    overflow: auto;
+    .resume-box{
+        
+        background-color: #FFF;
+        .shado-1();
+        float: none;
+        margin: auto;
+        margin-bottom: 3%;
+        .basic-profile{
+            padding: 10px;
+            border-right:1px solid #D2D2D2;
+            .baci-cc{
+                 background-color: @color-primary;
+                @media screen and (max-width: 991px){
+                    padding-top: 10%;
+                }
+            }
+            .basic-detail{
+                padding: 10px;
+                text-align: center;
+                background-color: @color-primary;
+                color: #FFF;
+                padding-bottom: 15px;
+                h2{
+                    margin-bottom: 3px;
+                }
+                p{
+                    margin-bottom: 5px;
+                }
+                span{
+                    color:#FFF;
+                }
+            }
+        }
+        .detail-profile{
+            .nav-item{
+                a{
+                    color: #888;
+                    font-size: 16px;
+                    padding: .7rem 1.7rem;
+                    border-radius: 0px;
+                    @media screen and (max-width: 595px){
+                         padding: .7rem 1.5rem;
+                    }
+                    @media screen and (max-width: 560px){
+                         padding: .7rem 1rem;
+                    }
+                     @media screen and (max-width:483px){
+                         padding: .7rem .5rem;
+                         font-size: 12px;
+                    }
+                    
+                }
+                .active{
+                        color: @color-primary !important;
+                }
+            }
+            .tab-pane{
+                padding: 20px;
+                height: 530px;
+                overflow: auto;
+                @media screen and (max-width:483px){
+                    padding: 5px;
+                }
+            }
+            .detal-jumbo{
+                padding: 20px;
+                background-color: #EEEEEE;
+                border-left: 4px solid @color-primary;
+                border-radius: 4px;
+                h3{
+                    font-size: 24px;
+                }
+                p{
+                    text-indent: 20px;
+                }
+            }
+            .links{
+                padding: 50px 0px;
+                .btn-link li{
+                    float: left;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                    border:1px solid #888;
+                    margin-right: 10px;
+                    color: #888;
+                    @media screen and (max-width:483px){
+                        margin-right: 5px !important;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    i{
+                        margin-top: 5px;
+                    }
+                    a{
+                        color: #888;
+                    }
+                }
+                .social-link{
+                    float: right;
+                    li{
+                        float: left;
+                        padding: 5px;
+                        border:1px solid #888;
+                        border-radius: 50px;
+                        width: 35px;
+                        text-align: center;
+                        margin-right: 10px;
+                        @media screen and (max-width:483px){
+                            margin-right: 5px !important;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            .jumbo-address{
+                @media screen and (max-width:483px){
+                     padding: 20px 10px;
+                }
+                padding: 20px 40px;
+                background-color: #EEEEEE;
+                border-left: 4px solid @color-primary;
+                .addrss-list tr th,td{
+                    padding: 10px;
+                }
+            }
+            .profile-desic{
+                padding: 20px;
+                p{
+                    text-align: center;
+                }
+            }
+            .service{
+                padding: 10px;
+                margin-bottom: 20px;
+               
+                .rit-serv{
+                    h4{
+                       text-align: right;
+                    }
+                }
+                .serv-logo{
+                    text-align: center;
+                    border-right: 2px solid #CCC;
+                    @media screen and (max-width:483px){
+                            font-size: 14px;
+                            padding: 0px !important; 
+                        }
+                    i{
+                        font-size: 42px;
+                        margin-top: 22px;
+                        color: @color-primary;
+                         @media screen and (max-width:483px){
+                            font-size: 14px;
+                            padding: 0px !important; 
+                        }
+                    }
+                }
+                
+                .serv-logo-right{
+                    border-left: 2px solid #CCC;
+                    text-align: center;
+                    @media screen and (max-width:483px){
+                            font-size: 14px;
+                            padding: 0px !important; 
+                        }
+                    i{
+                        font-size: 42px;
+                        margin-top: 22px;
+                        color: @color-primary;
+                        @media screen and (max-width:483px){
+                            font-size: 14px;
+                            padding: 0px !important; 
+                        }
+                    }
+                    
+                }
+            }
+            .rit-serv{
+                h5{
+                    text-align: right;
+                }
+                 p{
+                    text-align: right;
+                }
+            }
+            .resume-dat{
+                padding-top: 13px;
+                @media screen and (max-width:483px){
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .gallery{
+            img{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+        .map iframe{
+            width: 100%;
+            height: 300px;
+            .card-1();
+            background-color: #FFF;
+            padding: 5px;
+            margin-bottom: 30px;
+        }
+    }
+}
